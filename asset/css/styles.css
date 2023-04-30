@@ -542,6 +542,7 @@ a {
     align-items: center;
     width: 28px;
     height: 28px;
+    background: #f9f9f9;
 }
 .footer .row-btn {
     margin-top: 81px;
