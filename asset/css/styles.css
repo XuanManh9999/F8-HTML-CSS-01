@@ -61,6 +61,7 @@ a {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .navbar {
     display: flex;
@@ -96,20 +97,17 @@ a {
 .btn:hover {
     opacity: 0.9;
 }
-.hero {
-    margin-top: 130px;
-}
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: 0.01em;
     color: #687690;
 }
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     font-weight: 700;
     font-size: 6.4rem;
